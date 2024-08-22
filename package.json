@@ -1,0 +1,19 @@
+{
+  "name": "conchayoro",
+  "version": "1.0.0",
+  "description": "criacao projeto base",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srtamol/conchayoro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srtamol/conchayoro/issues"
+  },
+  "homepage": "https://github.com/srtamol/conchayoro#readme"
+}
