@@ -23,9 +23,8 @@ jobs:
           node-version: '18'
           cache: 'npm'
       - run: docker build -t $MODULE_FULLNAME $MODULE_NAME
-      - run: |
-          docker tag $MODULE_FULLNAME:$TAG \
-          $REGISTRY_URL/$MODULE_FULLNAME:$TAG
+      - run: | 
+          docker tag $MODULE_FULLNAME:$TAG\$REGISTRY_URL/$MODULE_FULLNAME:$TAG
       - run: |
           aws ecr get-login-password --region $AWS_REGION | \
           docker login --username AWS --password-stdin $REGISTRY_URL
