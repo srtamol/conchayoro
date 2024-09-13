@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/srtamol/conchayoro/issues"
   },
-  "homepage": "https://github.com/srtamol/conchayoro#readme"
+  "homepage": "https://github.com/srtamol/conchayoro#readme",
+  "dependencies": {
+    "@vercel/flags": "^2.6.0"
+  }
 }

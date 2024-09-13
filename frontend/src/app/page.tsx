@@ -1,4 +1,4 @@
-import { blackFridayFlag } from './flags';
+import { blackFridayFlag } from '@/app/flags'; 
 export default async function Page() {
 const black_friday = await blackFridayFlag();
 return (
